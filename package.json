@@ -1,0 +1,29 @@
+{
+  "name": "three-fast",
+  "version": "1.0.35",
+  "description": "fast build three scene",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lonyPavier/three-fast.git",
+    "directory": "lib"
+  },
+  "scripts": {
+    "build": "rimraf lib && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files":[
+    "lib"
+  ],
+  "author": "zpw",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.10.1",
+    "deep-assign": "^3.0.0",
+    "gsap": "^3.7.1",
+    "rimraf": "^3.0.2",
+    "three": "0.115.0",
+    "three-particle-fire": "^0.0.0",
+    "typescript": "^4.4.3"
+  }
+}
